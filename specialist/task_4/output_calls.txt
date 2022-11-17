@@ -1,0 +1,14 @@
+Thu Nov 17 23:28:43 2022    output.dat
+
+         93 function calls (49 primitive calls) in 0.000 seconds
+
+   Ordered by: call count
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+       45    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+     45/1    0.000    0.000    0.000    0.000 /Users/stanislavgaliant/MyProjects/py-learn-stsglnt/specialist/task_4/debugging_task.py:6(fib)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 <string>:1(<module>)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
