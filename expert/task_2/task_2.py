@@ -26,6 +26,7 @@ with ThreadPoolExecutor(20) as executor:
 
 
 with ThreadPoolExecutor(20) as executor:
-    for future in [executor.submit(sqr, i) for i in range(10)]:
+    futures = [executor.submit(sqr, i) for i in range(10)]
+    for future in as_completed(futures):
         result = future.result()
         print(result)
