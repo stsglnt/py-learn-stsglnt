@@ -13,7 +13,7 @@ class B(A):
         print("B")
 
 
-class C(B, A):
+class C(A, B):
     pass
 
 
